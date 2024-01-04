@@ -48,23 +48,7 @@ export const App = () => {
         </NavigationContainer>
 
         <View style={styles.footer}>
-          <Text style={styles.footerText}>
-            Log in with the same account on another device or simulator to see
-            your list sync in real time.
-          </Text>
 
-          {dataExplorerLink && (
-            <View>
-              <Text style={styles.footerText}>
-                You can view your data in MongoDB Atlas:
-              </Text>
-              <Text
-                style={[styles.footerText, styles.hyperlink]}
-                onPress={() => Linking.openURL(dataExplorerLink)}>
-                {dataExplorerLink}.
-              </Text>
-            </View>
-          )}
         </View>
       </SafeAreaProvider>
     </>
@@ -72,14 +56,6 @@ export const App = () => {
 };
 
 const styles = StyleSheet.create({
-  footerText: {
-    fontSize: 12,
-    textAlign: 'center',
-    marginVertical: 4,
-  },
-  hyperlink: {
-    color: 'blue',
-  },
   footer: {
     paddingHorizontal: 24,
     paddingVertical: 12,
