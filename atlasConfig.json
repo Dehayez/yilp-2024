@@ -1,0 +1,9 @@
+{
+    "appId": "yilp-emvuj",
+    "appUrl": "https://realm.mongodb.com/groups/63a1f667ea26d51e2e0ae7d5/apps/658c43c5a69e90f9b2a0ce81",
+    "baseUrl": "https://realm.mongodb.com",
+    "clientApiBaseUrl": "https://eu-west-2.aws.realm.mongodb.com",
+    "dataApiBaseUrl": "https://eu-west-2.aws.data.mongodb-api.com",
+    "dataExplorerLink": "https://cloud.mongodb.com/links/63a1f667ea26d51e2e0ae7d5/explorer/Cluster0/database/collection/find",
+    "dataSourceName": "mongodb-atlas"
+}
